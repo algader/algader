@@ -173,6 +173,8 @@ padding-left: 0px;
 	position: relative;
 	top: 50px;
      height: 200px;
+	 text-align: right;
+	 
 }
 
 #carousel-featured .product-details .product-category{
