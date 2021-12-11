@@ -14,6 +14,8 @@ $(function (){
       });
 
 
+      $('#copyright').text("	جميع الحقوق محفوظة للمتجر لسنة" + new Date().getFullYear());
+
 
     });
 
