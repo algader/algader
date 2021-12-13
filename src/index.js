@@ -16,6 +16,14 @@ $(function (){
 
       $('#copyright').text("	جميع الحقوق محفوظة للمتجر لسنة" + new Date().getFullYear());
 
+      //  هام مراجعة اليوم  
+// 04. تنسيق تفاصيل المنتج
+
+      $('.product-option input[type="radio"]').on( "change",function() {
+        $(this).parents('.product-option').siblings().removeClass('active');
+        $(this).parents('.product-option').addClass('active');
+      });
+
 
     });
 
